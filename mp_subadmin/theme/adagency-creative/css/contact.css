@@ -1,0 +1,112 @@
+#contactform {
+}
+#contactform fieldset {
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 20px;
+	padding-bottom: 0px;
+	border-radius: 10px;
+}
+#contactform fieldset legend {
+	color: #111;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	background-color: #fff;
+	line-height: 24px;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+}
+#contactform fieldset div {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+#contactform fieldset div label {
+	width: 150px;
+	float: left;
+}
+#contactform fieldset div input[type=text], #contactform fieldset div input[type=email], #contactform fieldset div input[type=tel], #contactform fieldset div input[type=url], #contactform fieldset div select {
+	width: 250px;
+	float: left;
+	line-height: 40px;
+	height: 40px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 0px 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contactform fieldset div textarea {
+	width: 250px;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	min-height: 100px;
+	font-family: 'Oxygen', sans-serif;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#contactform #verify, .verify {
+	margin-bottom: 20px;
+}
+#contactform .submit {
+	line-height: 37px !important;
+	padding: 0px 20px !important;
+	display: inline-block !important;
+	width: auto !important;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	font-weight: bold !important;
+	color: #fff !important;
+	border-radius: 5px !important;
+	text-transform: capitalize !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	transition-duration: 0s !important;
+	border: 0px;
+	height: 40px !important;
+}
+
+.blog-article-add-a-comment #message {
+	width: 100%;
+	float: left;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	margin-bottom: 40px;
+	background-color: #fff;
+	color: #c00;
+	padding: 0px 20px;
+	border-radius: 10px;
+}
+
+.blog-article-add-a-comment label.verify {
+	padding: 0;
+	margin: 2px 10px 2px 0;
+	width: 145px;
+	text-align: right;
+	float: left;
+}
+.blog-article-add-a-comment label.verify img {
+	padding:1px;
+	border:1px solid #cccccc;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin-bottom: 20px;
+	float: left;
+}
+.blog-article-add-a-comment input#verify {
+	width: 55px;
+}

@@ -1,0 +1,31 @@
+a:hover, nav.desktop-nav ul li a:hover, nav.desktop-nav > ul > li > ul > li a:hover, .featured-block h2 strong, .project .project-links i:hover, .project .project-title a, .testimonials .author p.work, .blog-article .date .month, .twitter-block .tweet i, p.copyright a:hover, .site-footer .footer-widget p.social-buttons a:hover, .mobile-nav > ul li a:hover, .page-title p a:hover, .page-title p span,
+.team div.social a:hover, .pr-table-1 .pr-table-1-price p, .pr-table-1 .pr-table-1-body ul li span, .pr-table-1 .pr-table-1-body ul li i, .pr-table-2 tbody tr td a, .widget-search form button, .ad-accordion header:hover, .top-bar-item i, #top-bar-search i.livicon-color, .menu-404 a:hover, .faq-item h3 i, .single-project-details ul li span, .blog-single ul li i, .page-content-item [class*="icon-"], .about-author p.name, [class*="ul-style-"] li i, .layer-slider-block .p-style-1, .layer-slider-block .h1-style-3 span, .layer-slider-block .h1-style-3, .layer-slider-block .dotted-color, #top-search-form-2 button i, .intro2-details p.color, p.copyright i {
+	color: #f36548;
+}
+nav.desktop-nav > ul > li > ul {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #f36548;
+}
+.logo span, nav.desktop-nav > ul > li > span.arrow, a.color-button, .intro-img p.color, .feature i, .project .project-links, .testimonials .content, .testimonials .arrow, .site-footer .footer-tags a:hover, .site-footer .footer-newsletters form input[type=submit], .skill span, .team div.info, .team figure .arrow, .pr-table-1 .featured, .pr-table-2 thead tr, .pr-table-3 .pr-table-3-price, .ad-tabs header span.active, #lang > ul, #top-bar-search .top-bar-search-form, .single-portfolio-images .flex-control-paging li a:hover, .slider1 .flexslider .flex-control-paging li a:hover, form input[type=submit], .quick_newsletter input.btn {
+	background-color: #f36548;
+	background: #f36548;
+	background-color: rgba(243,101,72,1) !important;
+}
+a.color-button, .site-footer .footer-newsletters form input[type=submit], .page-title h1, form input[type=submit], .quick_newsletter input.btn {
+	border-bottom-width: 3px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: #d33a1a !important;
+}
+.page-title h1 {
+	border-bottom-color: #f36548;
+}
+a.color-button:hover {
+	background-color: #d33a1a;
+}
+.project .project-links {
+	background-color: rgba(243,101,72,0.7) !important;
+}
+.blog-article-add-a-comment  input[type=text].focused, .blog-article-add-a-comment  input[type=email].focused, .blog-article-add-a-comment  input[type=password].focused, .blog-article-add-a-comment  textarea.focused, .widget-search form.focused, #top-search-form-2 + .focused, #contactform fieldset div input[type=text].focused, #contactform fieldset div input[type=email].focused, #contactform fieldset div input[type=tel].focused, #contactform fieldset div input[type=url].focused, #contactform fieldset div select.focused, #contactform fieldset div textarea.focused {
+	border: 1px solid #f36548;
+}

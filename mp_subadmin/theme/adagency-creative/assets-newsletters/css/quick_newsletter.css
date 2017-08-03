@@ -1,0 +1,48 @@
+.quick_newsletter	{ overflow: hidden; width: 100%; }
+.quick_newsletter	input	{ float: left; font: normal 11px Arial, Helvetica, sans-serif; }
+.quick_newsletter input {
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.quick_newsletter	input.text	{ border: 1px solid #ddd; background-color: #444; color: #fff; border-radius: 5px; width: 100%; margin-bottom: 10px; margin-right: 5px; }
+.quick_newsletter	input.text:focus	{background-color:#ffffc0; border: 0px solid #666; }
+
+.quick_newsletter input.text {
+	border: 0px;
+	border-radius: 3px;
+	background-color: #2a2a2a;
+	box-shadow: inset #111 0px 2px 2px;
+	line-height: 30px;
+	height: 30px;
+	padding: 0px 5px;
+	color: #fff;
+   color: #999;
+   font-style: italic;
+	width: 100%;
+}
+.quick_newsletter input[type=text] {
+	width: 100%;
+}
+.quick_newsletter	input.text:focus {
+	color: #fff;
+	font-style: normal;
+}
+
+.quick_newsletter	input.btn:hover	{ background-color: #555; }
+
+.quick_newsletter input.btn {
+	border-radius: 3px;
+	line-height: 30px;
+	height: 30px;
+	padding: 0px 15px;
+	color: #fff;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	float: left;
+}
+
+#subscribe_response_div  {font-size: 10px; color:#ff9900;}
+#subscribe_response_div .error {color:red;}

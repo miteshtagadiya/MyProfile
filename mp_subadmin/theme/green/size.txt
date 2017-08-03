@@ -1,0 +1,18 @@
+logo size :- 101-32
+
+logo size with menu :- 101-32
+
+slider - 1920-550
+
+home page product image size - 450-300
+
+about us page image size - 1920-120
+
+services page image size - 1920-120
+
+service page image size - 1920-120
+
+contact page image size - 1920-120
+
+product image size - 450-300
+
