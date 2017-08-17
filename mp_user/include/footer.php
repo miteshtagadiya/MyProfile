@@ -246,26 +246,10 @@
 		        }, function (start, end, label) {
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('YYYY D, MMMM') + ' - ' + end.format('YYYY D, MMMM'));
-		        });
-				
-				
-				
-				
-				
-				
-				
+		        });				
 	            });
 
 	        </script>
-
-			
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -276,10 +260,5 @@
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>
