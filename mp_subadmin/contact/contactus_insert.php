@@ -1,3 +1,4 @@
+<!-- code for insert the contact details -->
 <?php
 include('../mp_connect.php');
 

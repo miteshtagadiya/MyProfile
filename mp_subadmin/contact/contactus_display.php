@@ -21,17 +21,10 @@ include ("../include/menu.php");
 
 ?>
 
-       <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+       <!-- Displays the contactus page to subadmin -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
-
                 <!-- Row start -->
                 <div class="row">
                     <div class="col-md-12">
@@ -97,10 +90,6 @@ include ("../include/menu.php");
 											<div class="col-sm-6">
 												<input type="text" id="latitude" class="form-control" name="latitude">
 											</div>
-											
-											
-											
-										
 											<div class="col-sm-6">
 												<input type="text" id="longitude" class="form-control" name="longitude">
 											</div>
@@ -145,12 +134,6 @@ include ("../include/menu.php");
             </div> <!-- end container -->
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
-		
-		
         <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
@@ -186,13 +169,6 @@ include ("../include/menu.php");
         <script src="../assets/plugins/gmaps/gmaps.min.js"></script>
         <!-- demo codes -->
         <script src="../assets/pages/jquery.gmaps.js"></script>
-       
-		
-		
-		
-       
-		
-			
 		<!-- Bootstrap-tagsinput  -->
         <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
         <!-- Switchery  -->
@@ -229,15 +205,8 @@ include ("../include/menu.php");
 
         <!-- Data table init -->
         <script src="../assets/pages/datatables.init.js"></script>
-
-		
-		
-
 		 <script src="../assets/js/jquery.core.js"></script>
         <script src="../assets/js/jquery.app.js"></script>
-		
-
-	
 		<script>
             jQuery(document).ready(function() {
 
@@ -287,13 +256,6 @@ include ("../include/menu.php");
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
@@ -384,13 +346,6 @@ include ("../include/menu.php");
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
@@ -430,7 +385,6 @@ include ("../include/menu.php");
                     }
                 });
 
-                               
                 google.maps.event.addListener(marker, 'dragend', function() {
 
                 geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
@@ -450,13 +404,6 @@ include ("../include/menu.php");
             
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>  
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -467,10 +414,5 @@ include ("../include/menu.php");
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>

@@ -1,3 +1,7 @@
+<!--
+    Code for update contact details
+-->
+
 <?php 
 session_start();
 include ("../include/header.php");
@@ -36,10 +40,6 @@ $rec=mysqli_fetch_array($data);
 
 ?>
 ?>
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
 
         <div class="wrapper">
             <div class="container">
@@ -90,9 +90,6 @@ $rec=mysqli_fetch_array($data);
 											
 										
 									</div>	
-										
-										
-										
 										<div class="row">
 										<div style="background-color:#5D9CEC;border-radius:10px; margin :9px;padding : 1px;">
 										<p><center><font color="white" size=5%><b>Google Map</b></font></center></p>
@@ -115,10 +112,6 @@ $rec=mysqli_fetch_array($data);
 											<div class="col-sm-6">
 												<input type="text" id="latitude" class="form-control" name="latitude">
 											</div>
-											
-											
-											
-										
 											<div class="col-sm-6">
 												<input type="text" id="longitude" class="form-control" name="longitude">
 												</div>
@@ -148,17 +141,7 @@ $rec=mysqli_fetch_array($data);
                     </div>
 
                 </div>
-
-
-
-               
-
-
-
-
-              
-
-				<!-- Footer -->
+		<!-- Footer -->
                 <footer class="footer text-right">
                     <div class="container">
                         <div class="row">
@@ -174,13 +157,7 @@ $rec=mysqli_fetch_array($data);
             </div> <!-- end container -->
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
-		
-		
-        <!-- jQuery  -->
+		 <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
         <script src="../assets/js/detect.js"></script>
@@ -215,13 +192,7 @@ $rec=mysqli_fetch_array($data);
         <script src="../assets/plugins/gmaps/gmaps.min.js"></script>
         <!-- demo codes -->
         <script src="../assets/pages/jquery.gmaps.js"></script>
-       
-		
-		
-		
-       
-		
-			
+       	
 		<!-- Bootstrap-tagsinput  -->
         <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
         <!-- Switchery  -->
@@ -258,15 +229,8 @@ $rec=mysqli_fetch_array($data);
 
         <!-- Data table init -->
         <script src="../assets/pages/datatables.init.js"></script>
-
-		
-		
-
-		 <script src="../assets/js/jquery.core.js"></script>
+        <script src="../assets/js/jquery.core.js"></script>
         <script src="../assets/js/jquery.app.js"></script>
-		
-
-	
 		<script>
             jQuery(document).ready(function() {
 
@@ -316,13 +280,6 @@ $rec=mysqli_fetch_array($data);
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
@@ -413,13 +370,6 @@ $rec=mysqli_fetch_array($data);
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
@@ -479,13 +429,6 @@ $rec=mysqli_fetch_array($data);
             
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>  
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -496,10 +439,7 @@ $rec=mysqli_fetch_array($data);
             } );
             TableManageButtons.init();
         </script>
-
-		
 			
     </body>
-
 
 </html>

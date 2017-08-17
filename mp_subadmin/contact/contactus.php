@@ -3,9 +3,7 @@ include ("../include/header.php");
 include ("../include/menu.php");
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Contactus page -->
 
         <div class="wrapper">
             <div class="container">
@@ -16,9 +14,6 @@ include ("../include/menu.php");
                             <div class="card-box">
 									 <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Contact US</b></h4>
                                 <div class="row">
-                                 
-
-								
 									<div class="row">
 										<form method="post" action="contactus_insert.php">
 											<div class="col-sm-6">
@@ -51,12 +46,7 @@ include ("../include/menu.php");
                                             <input type="email" class="form-control" placeholder="Enter email" name="email">
 											</div>
 										</div>
-											
-										
 									</div>	
-										
-										
-										
 										<div class="row">
 										<div style="background-color:#5D9CEC;border-radius:10px; margin :9px;padding : 1px;">
 										<p><center><font color="white" size=5%><b>Google Map</b></font></center></p>
@@ -64,13 +54,9 @@ include ("../include/menu.php");
 										</div>
 										
 										<div class="form-group">
-											
-												
 												<label>Map Address</label>
 												<input type="text" id="address" class="form-control">
-											
 										</div>
-                                        
 										<div class="row" style="margin-top:10px;">  
 										<div class="form-group">
 											<label class="col-sm-6">Latitude</label>
@@ -79,10 +65,6 @@ include ("../include/menu.php");
 											<div class="col-sm-6">
 												<input type="text" id="latitude" class="form-control" name="latitude">
 											</div>
-											
-											
-											
-										
 											<div class="col-sm-6">
 												<input type="text" id="longitude" class="form-control" name="longitude">
 											</div>
@@ -106,21 +88,11 @@ include ("../include/menu.php");
 											</center>
 										</div>
 								</div>
-										
                             </div>
                         </div>
                     </div>
 
                 </div>
-
-
-               
-
-
-
-
-              
-
 				<!-- Footer -->
                 <footer class="footer text-right">
                     <div class="container">
@@ -138,12 +110,6 @@ include ("../include/menu.php");
 			
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
-		
-		
         <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
@@ -172,20 +138,12 @@ include ("../include/menu.php");
         <!-- daterangepicker -->
      	<script src="../assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
 
-
 	     <!-- google maps api -->
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <!-- gmap js file -->
         <script src="../assets/plugins/gmaps/gmaps.min.js"></script>
         <!-- demo codes -->
         <script src="../assets/pages/jquery.gmaps.js"></script>
-       
-		
-		
-		
-       
-		
-			
 		<!-- Bootstrap-tagsinput  -->
         <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
         <!-- Switchery  -->
@@ -222,15 +180,8 @@ include ("../include/menu.php");
 
         <!-- Data table init -->
         <script src="../assets/pages/datatables.init.js"></script>
-
-		
-		
-
 		 <script src="../assets/js/jquery.core.js"></script>
         <script src="../assets/js/jquery.app.js"></script>
-		
-
-	
 		<script>
             jQuery(document).ready(function() {
 
@@ -280,13 +231,6 @@ include ("../include/menu.php");
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
@@ -377,13 +321,6 @@ include ("../include/menu.php");
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
@@ -422,8 +359,6 @@ include ("../include/menu.php");
                         }
                     }
                 });
-
-                               
                 google.maps.event.addListener(marker, 'dragend', function() {
 
                 geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
@@ -440,16 +375,8 @@ include ("../include/menu.php");
             });
             
             }
-            
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>  
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -460,10 +387,5 @@ include ("../include/menu.php");
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>
