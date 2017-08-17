@@ -1,4 +1,4 @@
-
+<!-- This code is for delete the theme -->
 <?php 
 
 function Delete($path)

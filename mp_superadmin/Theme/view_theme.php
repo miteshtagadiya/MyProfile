@@ -1,12 +1,11 @@
+<!--
+    This code is used for view all themes
+-->
+
 <?php 
 include ("../include/header.php");
 include ("../include/menu.php");
 ?>
-
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
 
         <div class="wrapper">
             <div class="container">
@@ -17,26 +16,17 @@ include ("../include/menu.php");
                         <h4 class="page-title" style="text-align:center;">Theme Record</h4>
 					</div>
 				</div>
-				
-				
-				<div class="row" style="margin-bottom:20px;">
+			    <div class="row" style="margin-bottom:20px;">
 					<div class="col-sm-12">
 							<center><a href="add_theme.php">
                             <button type="button" class="btn btn-default dropdown-toggle waves-effect waves-light">Add New Data</button>
 							</a></center>
 					</div>
                 </div>
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
-
-                           
-                            
-                            <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                    <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
                                         <th>No.</th>
@@ -106,20 +96,11 @@ elseif($cnt==0)
 <?php
 }
 ?>
-
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
-
-
-
-
-               
-
-
+            </div>
+        </div>
 
 <?php include ("../include/footer.php");?>
               

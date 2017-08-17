@@ -1,3 +1,7 @@
+<!--
+    This code is used for upload new theme
+-->
+
 <?php
 ob_start();
 ?>

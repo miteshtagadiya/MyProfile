@@ -1,3 +1,7 @@
+<!--
+    This code if for upload the edited theme
+-->
+
 <?php
 include('../connect.php');
 

@@ -1,3 +1,5 @@
+<!-- The code for edit theme  -->
+
 <?php
 
 
