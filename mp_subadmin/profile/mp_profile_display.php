@@ -1,3 +1,7 @@
+<!--
+    Displays prfile details
+--> 
+
 <?php 
 session_start();
 include ("../include/header.php");
@@ -37,11 +41,6 @@ if(isset($_POST['submit']))
 
 
 ?>
-
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
 
        <div class="wrapper">
             <div class="container">

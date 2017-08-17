@@ -6,21 +6,15 @@ $eid=$_SESSION['employee_id'];
 
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Profile home page -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
                     </div>
-					
+*					
 					
 					<div class="col-sm-6">
                         <div class="card-box" style="margin-top:50px;">
@@ -47,16 +41,8 @@ $eid=$_SESSION['employee_id'];
 										</button>
 										</center>
 										</div>
-										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>

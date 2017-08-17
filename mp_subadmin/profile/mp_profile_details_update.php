@@ -1,3 +1,7 @@
+<!--
+    Updates profile details
+-->
+
 <script>
 	function validation(){
 		var fname=document.getElementById("fname").value;
@@ -50,10 +54,6 @@ elseif($row['gender']=="female"){
       
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
@@ -134,11 +134,6 @@ elseif($row['gender']=="female"){
 
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
@@ -170,11 +165,5 @@ if(isset($_POST['submit']))
 	}
 	
 }
-
-
-
-
-
-
 
 ?>

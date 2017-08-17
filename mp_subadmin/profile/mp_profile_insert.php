@@ -1,3 +1,7 @@
+<!--
+    Code for insert profiel details into the database
+-->
+
 <?php
 include('../mp_connect.php');
 

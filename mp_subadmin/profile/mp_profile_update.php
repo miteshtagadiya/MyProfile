@@ -1,3 +1,7 @@
+<!-- 
+    updates profile details
+-->
+
 <?php 
 session_start();
 include ("../include/header.php");
@@ -37,36 +41,20 @@ if(isset($_POST['submit']))
 
 
 ?>
-
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
-      
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
                     </div>
-					
-					
 					<div class="col-sm-6">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Profile</b></h4>
-
 
                             <div class="row">
                                
 							   <div class="col-md-12" >
                                     <form class="form-horizontal" role="form" enctype="multipart/form-data" method="post">
-                                        
-										
 										<div class="form-group">
 											<label>Profile Image</label>
 											<div>
@@ -80,10 +68,6 @@ if(isset($_POST['submit']))
 											</div>
 											<input type="file" class="filestyle" data-buttonname="btn-white" name="profile">
 										</div>
-										
-									
-										
-										
 										<div class="form-group text-right m-b-0">
 										<button class="btn btn-primary waves-effect waves-light" type="submit" name="submit" value="submit">
                                         Update
@@ -92,15 +76,8 @@ if(isset($_POST['submit']))
                                         Cancel
 										</button>
 										</div>
-										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
 
                             </div>
                         </div>

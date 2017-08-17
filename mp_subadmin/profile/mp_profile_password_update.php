@@ -1,3 +1,5 @@
+<!-- Code for update the password -->
+
 <script>
 	function validation(){
 		var fname=document.getElementById("fname").value;
@@ -30,12 +32,6 @@ include ("../mp_connect.php");
 $eid=$_SESSION['employee_id'];
 ?>
 
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
-      
         <div class="wrapper">
             <div class="container">
 
@@ -72,9 +68,6 @@ $eid=$_SESSION['employee_id'];
                                             <label>Confirm Password</label>
                                             <input type="password" class="form-control" id="lname" placeholder="Enter Confirm Password"  name="confirm_pass">
                                         </div>
-										
-										
-						
 										<div class="form-group text-right m-b-0">
 										<center>
 										<button class="btn waves-effect waves-light" style="background-color:#ce241b; color:#fff;" type="submit" value="submit" name="submit" onclick="return validation();">
@@ -85,16 +78,8 @@ $eid=$_SESSION['employee_id'];
 										</button>
 										</center>
 										</div>
-										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
@@ -137,14 +122,6 @@ if(isset($_POST['submit']))
 		echo "<script>alert('Wrong old Password');</script>";
 	}	
 	
-	
-	
 }
-
-
-
-
-
-
 
 ?>
