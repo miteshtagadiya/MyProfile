@@ -42,6 +42,7 @@
     users and also view the details about howmany users are registerd today , howmany users are active now, and howmany users are
     suspended. this details are displaed in the dashbord of the admin side.
     Super admin can Add the Followind Details:
+    
     1)Category: SuperAdmin can Add and Update category.This is used in subAdmin side.Subadmin can select that category.
     2)Field: SuperAdmin can Add Fields For particular category and also updates the fileds.
     3)Type: SuperAdmin can Add and update user type (Employee,CEO,etc.).
