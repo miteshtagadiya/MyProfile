@@ -10,16 +10,10 @@ $data=mysqli_query($con,$query);
 $rec=mysqli_fetch_array($data);
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Displays the subimage of portfolio -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
@@ -50,23 +44,13 @@ $rec=mysqli_fetch_array($data);
 										</button>
 										</div>
 										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
 					<div class="col-sm-3">
                     </div>
-					
                 </div>
-
-
 
 <?php include ("../include/footer.php"); ?>

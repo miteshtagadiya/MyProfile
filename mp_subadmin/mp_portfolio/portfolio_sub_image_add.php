@@ -12,22 +12,14 @@ $rec1=mysqli_fetch_array($data);
 $portfoliotitle=$rec1['portfolio_title'];
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Add portfolio subimages -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
                     </div>
-					
-					
 					<div class="col-sm-6">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Add Image for <?php echo $portfoliotitle; ?></b></h4>
@@ -60,16 +52,8 @@ $portfoliotitle=$rec1['portfolio_title'];
 										</button>
 										</center>
 										</div>
-										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>

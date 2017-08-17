@@ -13,9 +13,7 @@ $data=mysqli_query($con,$query);
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Displays table of portfolio images -->
 
         <div class="wrapper">
             <div class="container">
@@ -26,12 +24,6 @@ $data=mysqli_query($con,$query);
                         <h4 class="page-title" style="text-align:center;">Portfolio </h4>
 					</div>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
@@ -63,10 +55,6 @@ $data=mysqli_query($con,$query);
 						</div>
 					</div>
 				</div>
-               
-
-
 
 <?php include ("../include/footer.php");?>
-              
               

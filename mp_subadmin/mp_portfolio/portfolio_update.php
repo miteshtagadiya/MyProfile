@@ -1,3 +1,7 @@
+<!--
+    Updates Portfolio details
+-->
+
 <?php 
 session_start();
 include ("../include/header.php");
@@ -47,29 +51,15 @@ if(isset($_POST['submit']))
 
 ?>
 
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
-      
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
                     </div>
-					
-					
 					<div class="col-sm-6" style="margin-top:50px;">
                         <div class="card-box">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Portfolio</b></h4>
-
-
                             <div class="row">
                                
 							   <div class="col-md-12" >
@@ -92,9 +82,6 @@ if(isset($_POST['submit']))
                                             <label>Description</label>
                                             <textarea class="ckeditor" rows="5" name="description"><?php echo $rec['portfolio_description'];?></textarea>
                                         </div>
-										
-										
-										
 										<div class="form-group text-right m-b-0">
 										<button class="btn btn-primary waves-effect waves-light" type="submit" name="submit" value="submit">
                                         Submit
@@ -103,16 +90,8 @@ if(isset($_POST['submit']))
                                         Cancel
 										</button>
 										</div>
-										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>

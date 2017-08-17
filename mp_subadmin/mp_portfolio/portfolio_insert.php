@@ -1,3 +1,7 @@
+<!--
+    Code for insert the portfolio details
+-->
+
 <?php
 include('../mp_connect.php');
 

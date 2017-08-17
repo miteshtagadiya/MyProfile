@@ -1,3 +1,5 @@
+<!-- Code for insert images in portfolio -->
+
 <?php
 include('../mp_connect.php');
 

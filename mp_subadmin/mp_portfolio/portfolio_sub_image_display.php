@@ -34,9 +34,7 @@ include ("../include/menu.php");
 
 ?>
 
-       <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+       <!-- Displays subimages -->
 
         <div class="wrapper">
             <div class="container">
@@ -64,13 +62,6 @@ include ("../include/menu.php");
 				<div class="row port">
                     <div class="portfolioContainer">
 
-					     <!--random color array  
-						  <?php 					
-							//$color_arrar = array('yellow ','green ','pink ');
-							//$size_of_array = sizeof($color_arrar);
-							//$n = rand(0,$size_of_array-1);
-							//$class = $color_arrar[$n%3];
-						   ?> -->
                          <?php
 											
 							$color_arrar = array('#679E37','#F8A724','#414141','#E53935','#5B6ABF','#1D87E4','#00887A','#E53935','#1D87E4','#778F9B','#378D3B','#00887A','#F16613','#94EC0C','#EB3F79','#CAFFFD','#FF8435','#F9DAD8','#029AE4','#8C6D62','#778F9B','#FDD687','#7D56C1','#FF0136','#00887A','#8BF8D8');
@@ -103,10 +94,6 @@ include ("../include/menu.php");
 						
 							<?php } ?>
 							
-							
-
-<!--<a href="portfolio_update.php" style="position: relative; margin-left: -50px;"><img src="../img/up2.png" style="height: 50px; width: 50px; background-color: #fff; border-radius: 50%; border: 3px solid black;" alt="update"></img></a>-->
-                   
                     </div>
                 </div> 
 				<?php } else if($count1>10) { ?>
@@ -114,13 +101,7 @@ include ("../include/menu.php");
 									<div class="row port">
                     <div class="portfolioContainer">
 
-					     <!--random color array  
-						  <?php 					
-							//$color_arrar = array('yellow ','green ','pink ');
-							//$size_of_array = sizeof($color_arrar);
-							//$n = rand(0,$size_of_array-1);
-							//$class = $color_arrar[$n%3];
-						   ?> -->
+					     <!--random color array  for images
                          <?php
 											
 							$color_arrar = array('#679E37','#F8A724','#414141','#E53935','#5B6ABF','#1D87E4','#00887A','#E53935','#1D87E4','#778F9B','#378D3B','#00887A','#F16613','#94EC0C','#EB3F79','#CAFFFD','#FF8435','#F9DAD8','#029AE4','#8C6D62','#778F9B','#FDD687','#7D56C1','#FF0136','#00887A','#8BF8D8');
@@ -145,18 +126,10 @@ include ("../include/menu.php");
 									</tr>
 									</table>
 								</div>
-								
-								<!--a href="portfolio_sub_image_update.php?id=<?php echo $row['portfolio_image_id']; ?>" style="position: relative; margin-left: 80px;"><img src="../img/delete.png" style="height: 25px; width: 25px; background-color: #fff; border-radius: 50%; border: 2px solid black;" alt="delete"></img></a>-->
-								
                             </div>
                         </div>
 						
 							<?php } ?>
-							
-							
-
-<!--<a href="portfolio_update.php" style="position: relative; margin-left: -50px;"><img src="../img/up2.png" style="height: 50px; width: 50px; background-color: #fff; border-radius: 50%; border: 3px solid black;" alt="update"></img></a>-->
-                   
                     </div>
                 </div> 
 				

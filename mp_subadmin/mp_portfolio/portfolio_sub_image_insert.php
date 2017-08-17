@@ -1,3 +1,5 @@
+<!-- Subimage insert code -->
+
 <?php
 include('../mp_connect.php');
 
@@ -50,11 +52,6 @@ if(isset($_POST['submit']))
 						}
 					}
 			}
-	
-	
-	
-	
-	
 	
 }
 

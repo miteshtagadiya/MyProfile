@@ -1,3 +1,7 @@
+<!--
+    Updates the portfolio subimage
+-->
+
 <?php 
 
 include ("../include/header.php");
@@ -48,18 +52,8 @@ if(isset($_POST['submit']))
 ?>
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
-      
-  
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
@@ -98,10 +92,6 @@ if(isset($_POST['submit']))
                                     </form>
                                 </div>
 								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>

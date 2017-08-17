@@ -1,3 +1,5 @@
+<!-- code for delete the portfolio -->
+
 <?php
 include('../mp_connect.php');
 

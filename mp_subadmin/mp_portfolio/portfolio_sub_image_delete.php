@@ -1,3 +1,6 @@
+<!--
+    Code for delet subimages
+-->
 <?php
 include('../mp_connect.php');
 

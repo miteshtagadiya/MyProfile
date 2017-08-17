@@ -21,9 +21,7 @@ $data=mysqli_query($con,$query);
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Displays the portfolio -->
 
         <div class="wrapper">
             <div class="container">
@@ -43,11 +41,6 @@ $data=mysqli_query($con,$query);
 									</a>	</button>
 						</center>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
 				
                 <div class="row">
                     <div class="col-sm-12">
@@ -132,10 +125,5 @@ $data=mysqli_query($con,$query);
 						</div>
 					</div>
 				</div>
-               
-
-
 
 <?php include ("../include/footer.php");?>
-              
-              
