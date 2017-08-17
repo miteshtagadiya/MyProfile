@@ -1,3 +1,7 @@
+<!--
+    This page is displayes after record is searched by users
+-->
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -19,6 +23,9 @@
  <link href="./assets/css/pages.css" rel="stylesheet" type="text/css" />
  <link href="./assets/css/menu.css" rel="stylesheet" type="text/css" />
  <link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    
+<!-- Internal stylesheet for this page -->    
+
 <style>
 .container
 {
@@ -475,9 +482,6 @@ span
 }
 }
 
-
-
-
 @media (max-width:767px)
 {
 	ul li
@@ -608,8 +612,6 @@ span
 
 }
 
-
-
 @media (max-width:320px)
 {
 .logoimg 
@@ -666,7 +668,8 @@ span
 <img class="logoimg" src="./image/Bliss.bmp" height="70px"></img>
 </a>
 </div>
-</div>
+
+
 
 <div class="col-sm-9" style="padding-right:22px;">
 <div class="menu">
@@ -707,7 +710,7 @@ span
 </div>
 </div>
 
-</div>
+<!-- Displayes side menu in search result page -->
 <div class="col-sm-3" id="navigation">
 <?php
 	include('./mp_connect.php');
@@ -715,22 +718,14 @@ span
 	$data1=mysqli_query($con,$sql1);
 	
 ?>
-
-	<ul>
+    <ul>
 	<?php while ($rec1=mysqli_fetch_array($data1)) {?>
 		<li><a href="searchresult.php?cid=<?php echo $rec1['category_id']; ?>" ><?php echo $rec1['category_name']; ?></a></li>
 	<?php } ?>
 	</ul>
-	
-	
+		
 </div>
 
-
-<!--<div class="col-sm-6">
-	<div id="datatable-responsive_filter" class="dataTables_filter">
-		<label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="datatable-responsive"></label>
-	</div>
-</div>-->
 <div class="col-sm-6 boxstyle" style="margin-left:11%;">
 	<div class="col-sm-3 imghover" style="margin:15px 0 15px 0; overflow:hidden;">
 	    <a href="./image/Bliss.bmp" class="image-popup" title="Screenshot-1">
@@ -749,6 +744,8 @@ span
 	</div>
 </div>
 
+
+<!--  search result displays -->
 <div class="col-sm-6 boxstyle" style="margin-left:11%;">
 	<div class="col-sm-3 imghover" style="margin:15px 0 15px 0; overflow:hidden;">
 		<a href="./image/Bliss.bmp" class="image-popup" title="Screenshot-1">
@@ -780,8 +777,7 @@ span
 		<h4><img src="./image/email.png" height="17px" width="20px"></img><b>&nbsp&nbsp&nbsp&nbsp&nbspabc@gmail.com</b></h4>
 		<h4><img src="./image/home.png" height="18px" width="22px"></img><b>&nbsp&nbsp&nbsp&nbsp&nbspSurat</b></h4>
 		<h5 class="menu float1"><b><a href="#">Get Root</a></b></h5>
-		<h5 class="menu float1"><b><a href="#">Visit Website</a></b></h5>
-		
+		<h5 class="menu float1"><b><a href="#">Visit Website</a></b></h5>		
 	</div>
 </div>
 
@@ -906,17 +902,7 @@ span
                 });
             });
         </script>
-		
-		<!--<script type="text/javascript">
-            $(document).ready(function() {
-                $('#datatable').dataTable();
-                $('#datatable-keytable').DataTable( { keys: true } );
-                $('#datatable-responsive').DataTable();
-                $('#datatable-scroller').DataTable( { ajax: "assets/plugins/datatables/json/scroller-demo.json", deferRender: true, scrollY: 380, scrollCollapse: true, scroller: true } );
-                var table = $('#datatable-fixed-header').DataTable( { fixedHeader: true } );
-            } );
-            TableManageButtons.init();
-        </script>-->
+	
 
 
 </body>
