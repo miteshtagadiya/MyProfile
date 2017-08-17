@@ -14,13 +14,7 @@
             </div> <!-- end container -->
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
 				<script src="./ckeditor/ckeditor.js" type="text/javascript"></script>
-
-		
         <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
@@ -205,13 +199,6 @@
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
@@ -302,25 +289,9 @@
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
-
-			
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -331,10 +302,5 @@
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>

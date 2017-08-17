@@ -4,7 +4,6 @@
 
     <body>
 
-
         <!-- Navigation Bar-->
         <header id="topnav">
             <div class="topbar-main">
