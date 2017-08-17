@@ -52,14 +52,14 @@
    
  # Technologies
  
-   1. PHP
-   2. MySQL
-   3. CKEditor
-   4. Jquery
-   5. JavaScript
-   6. Html
-   7. Css
-   8. BootStrap
+   1. [PHP](http://php.net/)
+   2. [MySql](https://www.mysql.com/)
+   3. [CKeditor](https://ckeditor.com/)
+   4. [jQuery](https://jquery.com/)
+   5. [javaScript](https://www.javascript.com/)
+   6. [Bootstrap](http://getbootstrap.com/)
+   7. HTML
+   8. CSS
    
 
    
