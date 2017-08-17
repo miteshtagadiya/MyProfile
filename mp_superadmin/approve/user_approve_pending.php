@@ -5,9 +5,7 @@ include ("../mp_connect.php");
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- This page displays the list of users who is not approved by the admin -->
 
         <div class="wrapper">
             <div class="container">
@@ -19,17 +17,9 @@ include ("../mp_connect.php");
 					</div>
 				</div>
 				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
-
-                           
-                            
                             <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -73,9 +63,12 @@ include ("../mp_connect.php");
 										<td><?php echo $rec['register_date']; ?></td>
 										<td><?php echo $rec['category_id']; ?></td>
 										<td><?php echo $rec['type_id']; ?></td>
-										<td><a href="user_approve_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:green;">Approve</a><br>
-											<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate</a>
-											</td>
+										<td>
+                                            <a href="user_approve_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:green;">Approve
+                                            </a><br>
+											<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate
+                                            </a>
+								        </td>
                                     </tr>
 												
 											<?php	} ?>
@@ -85,9 +78,4 @@ include ("../mp_connect.php");
 					</div>
 				</div>
                
-
-
-
 <?php include ("../include/footer.php");?>
-              
-              

@@ -5,21 +5,10 @@ include ("../mp_connect.php");
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Displays the full dashbord in detail -->
 
         <div class="wrapper">
             <div class="container">
-
-                <!-- Page-Title -->
-               
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12" style=" margin-top: 50px;">
                         
@@ -99,21 +88,16 @@ include ("../mp_connect.php");
 								</div>
 							</a>
 							</div>
-							
-							
-							
 					</div>
 					
 					
 					<div class="row" style="margin-bottom:20px;">
-                    <div class="col-sm-12">
-                        <h4 class="page-title" style="text-align:center;">All Records </h4>
-					</div>
-				</div>
+                        <div class="col-sm-12">
+                            <h4 class="page-title" style="text-align:center;">All Records </h4>
+					   </div>
+				    </div>
 					
 						<div class="card-box table-responsive">
-							
-							
 							<table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -173,10 +157,5 @@ include ("../mp_connect.php");
 							</table>
 						</div>
 					</div>
-					
-							
-							
 				</div>
 <?php include ("../include/footer.php");?>
-              
-              

@@ -1,10 +1,12 @@
+<!--
+    This page displayes active user in the system
+-->
+
 <?php 
 include ("../include/header.php");
 include ("../include/menu.php");
 include ("../mp_connect.php");
 ?>
-
-
         <!-- =======================
              ===== START PAGE ======
              ======================= -->
@@ -18,12 +20,7 @@ include ("../mp_connect.php");
                         <h4 class="page-title" style="text-align:center;">Approved Records </h4>
 					</div>
 				</div>
-				
-				
                 <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
@@ -77,9 +74,9 @@ include ("../mp_connect.php");
 										<td><?php echo $rec['type_id']; ?></td>
 										<td><?php echo $rec['status']; ?></td>
 										<td><a href="#" style="color:green;">Approved</a><br>
-											<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate(Deactivate this record)</a>
-											</td>
-										
+											<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate(Deactivate this record)
+                                            </a>
+								        </td>
                                     </tr>
 												
 											<?php	} ?>

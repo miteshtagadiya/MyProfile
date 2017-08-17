@@ -5,9 +5,7 @@ include ("../mp_connect.php");
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- this page displays the suspended users in the system -->
 
         <div class="wrapper">
             <div class="container">
@@ -18,18 +16,10 @@ include ("../mp_connect.php");
                         <h4 class="page-title" style="text-align:center;">User Registration History </h4>
 					</div>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
 
-                           
-                            
                             <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -83,9 +73,4 @@ include ("../mp_connect.php");
 					</div>
 				</div>
                
-
-
-
 <?php include ("../include/footer.php");?>
-              
-              

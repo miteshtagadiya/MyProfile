@@ -1,3 +1,6 @@
+<!--
+    This page is used for deactivate the user.
+-->
 <?php
 include("../mp_connect.php");
 

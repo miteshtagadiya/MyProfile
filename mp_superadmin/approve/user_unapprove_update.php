@@ -1,3 +1,4 @@
+<!-- Displays the unapproved users. -->
 <?php
 include("../mp_connect.php");
 

@@ -5,25 +5,17 @@ include ("../mp_connect.php");
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Displays the deactivated users -->
 
         <div class="wrapper">
             <div class="container">
 
-                <!-- Page-Title -->
+               
                 <div class="row" style="margin-bottom:20px; margin-top: 30px;">
                     <div class="col-sm-12">
                         <h4 class="page-title" style="text-align:center;">Suspended Records </h4>
 					</div>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
@@ -85,9 +77,4 @@ include ("../mp_connect.php");
 						</div>
 					</div>
 				</div>
-
-
-
 <?php include ("../include/footer.php");?>
-              
-              

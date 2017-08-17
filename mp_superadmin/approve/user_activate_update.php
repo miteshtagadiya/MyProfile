@@ -1,3 +1,6 @@
+<!--
+    This page is for approve the user request for registration
+-->
 <?php
 include("../mp_connect.php");
 

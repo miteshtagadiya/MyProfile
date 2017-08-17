@@ -1,3 +1,6 @@
+<!--
+    approve the users by updating records.
+-->
 <?php
 include("../mp_connect.php");
 

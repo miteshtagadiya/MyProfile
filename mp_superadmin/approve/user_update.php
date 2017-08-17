@@ -1,3 +1,5 @@
+<!-- This page is for update the user details -->
+
 <?php
 
 include ('../mp_connect.php');
@@ -44,36 +46,20 @@ include ("../include/menu.php");
 
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
-                    
 					<div class="col-sm-3">
                     </div>
-					
-					
 					<div class="col-sm-6">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Registration</b></h4>
-
 
                             <div class="row">
                                
 							   <div class="col-md-12" >
 									<?php include('../mp_connect.php');?>
                                     <form class="form-horizontal" role="form" method="post">
-                                        
-                                        
-										
-										
 										 <div class="form-group">
                                             <label>First Name</label>
                                             <input type="text" class="form-control" placeholder="Enter Firstname" name="firstname" value="<?php echo $rec['firstname'];?>">
@@ -233,17 +219,9 @@ include ("../include/menu.php");
 										</button>
 										</center>
 										</div>
-										
-										
-
-                                    </form>
+		                             </form>
                                 </div>
-								
-							   
-                                
-
-
-                            </div>
+		                    </div>
                         </div>
                     </div>
 					
@@ -256,15 +234,5 @@ include ("../include/menu.php");
                     </div>
 					
                 </div>
-
-
-
-               
-
-
-
-
-              
-
 
 <?php include ("../include/footer.php");?>

@@ -1,9 +1,12 @@
+<!--
+    This page is displays dashbord to super admin, this page displays how many users ane active now,how many users are registered etc.
+-->
+
 <?php 
 include ("../include/header.php");
 include ("../include/menu.php");
 include ("mp_connect.php");
 ?>
-
 
         <!-- =======================
              ===== START PAGE ======
@@ -13,17 +16,10 @@ include ("mp_connect.php");
             <div class="container">
 
                 <!-- Page-Title -->
-               
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         
-							
+							<!-- Dispals total users -->
 							<div class="col-md-6 col-sm-6 col-lg-3">
 							<a href="#total">
 								<div class="mini-stat clearfix card-box">
@@ -37,6 +33,7 @@ include ("mp_connect.php");
 							</a>
 							</div>
 							
+                            <!-- Dispals suspended users -->
 							<div class="col-md-6 col-sm-6 col-lg-3">
 							<a href="#suspend">
 								<div class="mini-stat clearfix card-box">
@@ -45,25 +42,22 @@ include ("mp_connect.php");
 										<span class="counter text-dark"><?php $sql="select * from mp_registration where isapprove='2'"; $data=mysql_query($sql); $rec=mysql_num_rows($data); echo $rec;?></span>
 											Suspended Users
 									</div>
-									
 								</div>
 							</a>
 							</div>
 							
+                            <!-- Dispals unapproved users -->
 							<div class="col-md-6 col-sm-6 col-lg-3">
-							
 								<div class="mini-stat clearfix card-box">
 									<span class="mini-stat-icon bg-success"><i class="ion-android-contacts text-white"></i></span>
 									<div class="mini-stat-info text-right text-dark">
 										<span class="counter text-dark"><?php $sql="select * from mp_registration where isapprove='0'"; $data=mysql_query($sql); $rec=mysql_num_rows($data); echo $rec;?></span>
 											UnApproved Users
 									</div>
-									
 								</div>
-							
 							</div>
 							
-							
+							<!-- Dispals users who joined today -->
 							<div class="col-md-6 col-sm-6 col-lg-3">
 								<div class="mini-stat clearfix card-box">
 									<span class="mini-stat-icon bg-success"><i class="ion-android-contacts text-white"></i></span>
@@ -71,10 +65,10 @@ include ("mp_connect.php");
 										<span class="counter text-dark"><?php $date=date('Y-m-d'); $sql="select * from mp_registration where register_date='$date'"; $data=mysql_query($sql); $rec=mysql_num_rows($data); echo $rec;?></span>
 											Users Joined Today
 									</div>
-									
 								</div>
 							</div>
 							
+                            <!-- Dispals active users -->
 							<div class="col-md-6 col-sm-6 col-lg-3">
 								<div class="mini-stat clearfix card-box">
 									<span class="mini-stat-icon bg-success"><i class="ion-android-contacts text-white"></i></span>
@@ -82,18 +76,17 @@ include ("mp_connect.php");
 										<span class="counter text-dark"><?php $sql="select * from mp_registration where status='1'"; $data=mysql_query($sql); $rec=mysql_num_rows($data); echo $rec;?></span>
 											Active Users
 									</div>
-									
 								</div>
 							</div>
 							
 					</div>
 					
-					
+					<!-- Dispals all users -->
 					<div class="row" style="margin-bottom:20px;">
-                    <div class="col-sm-12">
-                        <h4 class="page-title" style="text-align:center;">All Records </h4>
-					</div>
-				</div>
+                        <div class="col-sm-12">
+                            <h4 class="page-title" style="text-align:center;">All Records </h4>
+					   </div>
+				    </div>
 					
 						<div class="card-box table-responsive">
 							

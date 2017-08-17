@@ -5,9 +5,7 @@ include ("../mp_connect.php");
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- This page displays approved user's history. -->
 
         <div class="wrapper">
             <div class="container">
@@ -18,12 +16,6 @@ include ("../mp_connect.php");
                         <h4 class="page-title" style="text-align:center;">User Registration History </h4>
 					</div>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
@@ -75,17 +67,22 @@ include ("../mp_connect.php");
 										<td><?php echo $rec['type_id']; ?></td>
 										<td><?php if($rec['isapprove']==1) 
 											{ ?>
-												<a href="user_unapprove_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:green;">Approved</a>
+												<a href="user_unapprove_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:green;">Approved
+                                                </a>
 										<?php } else if($rec['isapprove']==2)
 											{ ?>
-											<a href="user_activate_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:red;">Deactivated</a> 
+											     <a href="user_activate_update.php?id=<?php echo $rec['employee_id']; ?>" style="color:red;">Deactivated
+                                                </a> 
 										<?php } ?><br>
 										<?php if($rec['isapprove']==1) 
 											{ ?>
-												<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate(Deactivate this record.)</a> 
+												<a href="user_deactivate_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:red;">Deactivate(Deactivate this record.)
+                                                </a> 
 									    <?php } else if($rec['isapprove']==2){ ?> 
-											<a href="user_approve_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:green;">Approve(Approve this record.)</a> 
-										<?php } ?> </td>
+											     <a href="user_approve_update.php?id=<?php echo $rec['employee_id']; ?>" style="margin-left:80px; color:green;">Approve(Approve this record.)
+                                                </a> 
+										<?php } ?> 
+                                        </td>
                                     </tr>
 												
 											<?php	} ?>
@@ -95,9 +92,4 @@ include ("../mp_connect.php");
 					</div>
 				</div>
                
-
-
-
 <?php include ("../include/footer.php");?>
-              
-              
