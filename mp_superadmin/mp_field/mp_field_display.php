@@ -7,9 +7,7 @@ $query="select * from mp_field";
 $data=mysqli_query($con,$query);
 ?>
 
-      <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+      <!-- displays the fields -->
 
         <div class="wrapper">
             <div class="container">
@@ -29,16 +27,10 @@ $data=mysqli_query($con,$query);
 							</a></center>
 					</div>
                 </div>
-                <!-- Page-Title -->
 
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
-
-                           
-                            
                             <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -71,14 +63,5 @@ $data=mysqli_query($con,$query);
                         </div>
                     </div>
                 </div>
-
-
-               
-
-
-
-
-              
-
 
 <?php include ("../include/footer.php");?>

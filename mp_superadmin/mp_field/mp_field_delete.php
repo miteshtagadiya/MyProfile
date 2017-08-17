@@ -1,3 +1,5 @@
+<!-- code for delete particuler field -->
+
 <?php
 include ("../mp_connect.php");
 $id=$_GET['id'];
