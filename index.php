@@ -5,20 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
 <meta name="viewport" content="width=device-width">
  
+<!--
+   css for index page 
+-->    
 <style>
 
 body 
 {
     overflow-x: hidden;
 }
-
-
-.container
-{
-	
-}
-
-
 
 .logo, .menu
 {
@@ -655,8 +650,9 @@ body
 <b><a href="./mp_user/mp_user_registration/mp_user_registration.php">SignUp</a></b>
 </div>
 
-
-</div>
+<!--
+    Home page for search
+-->
 <div class="background">
 	<div class="search">
 		<div style="text-align:center;">
@@ -676,31 +672,9 @@ body
 
 <div class="red-box">
 		<div class="inside-content">
-			<!--<div class="facebook">
-				<a href="#">
-					<div><img class="heightimg" src="./image/fbi.png" style="border-radius:50%;" alt="Facebook"></div>
-					<p class="reqir-text">Facebook</p>
-				</a>
-			</div>
-			<div class="twitter">
-				<a href="#">
-					<div><img class="heightimg" src="./image/twit.png" style="border-radius: 50%;" alt="Twitter"></div>
-					<p class="reqir-text">Twitter</p>
-				</a>
-			</div>
-			<div class="google">
-				<a href="#">
-					<div><img class="heightimg" src="./image/googl.jpg" style="border-radius: 50%;" alt="Google Plus"></div>
-					<p class="reqir-text">Google Plus</p>
-				</a>
-			</div>-->
 			<center><p style="color:white; padding-top:25px;"> <b>©  2016 MyProfile , All Rights Reserved </p></center>
 			
 		</div>
 </div>
-<!--<div>
-<center><p> 2016 © MyProfile.</p></center>
-</div>-->
-
 </body>
 </html>
