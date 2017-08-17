@@ -25,15 +25,10 @@
 		<link href="./assets/plugins/clockpicker/dist/jquery-clockpicker.min.css" rel="stylesheet">
         <!-- Daterangepicker -->
 		<link href="./assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
-		
-		
 		        <!-- C3 Chart -->
         <link href="./assets/plugins/c3/c3.min.css" rel="stylesheet" type="text/css"  />
         <!-- Custombox css -->
         <link href="./assets/plugins/custombox/dist/custombox.min.css" rel="stylesheet">
-
-		
-		
 		<!-- Bootstrap-tagsinput css-->
         <link href="./assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
         <!-- switchery css-->
@@ -53,12 +48,6 @@
         <link href="./assets/plugins/datatables/fixedHeader.bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="./assets/plugins/datatables/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="./assets/plugins/datatables/scroller.bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-       
-       
-		
-		
-		
 		<link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="./assets/css/core.css" rel="stylesheet" type="text/css" />
         <link href="./assets/css/components.css" rel="stylesheet" type="text/css" />
@@ -68,16 +57,8 @@
         <link href="./assets/css/responsive.css" rel="stylesheet" type="text/css" />
 
         <script src="./assets/js/modernizr.min.js"></script>
-		
-		
-		
-		
     </head>
-
-
     <body>
-
-
         <!-- Navigation Bar-->
         <header id="topnav">
             <div class="topbar-main">
@@ -92,9 +73,6 @@
                     <div class="menu-extras">
 
                         <ul class="nav navbar-nav navbar-right pull-right">
-                            
-                            
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true"><i class="ti-user m-r-5"></i>Hello Admin</a>
                                 <ul class="dropdown-menu">
@@ -131,35 +109,23 @@
 					
 						<li class="has-submenu">
                             <a href="./approve/user_dashboard.php"><i class="md md-pages"></i>User</a>
-                           
                         </li>
 						
-						
-					 <li class="has-submenu">
-                            <a href="./mp_category/mp_category_display.php"><i class="md md-pages"></i>Category</a>
-                           
+					   <li class="has-submenu">
+                            <a href="./mp_category/mp_category_display.php"><i class="md md-pages"></i>Category</a>    
                         </li>
 
 						<li class="has-submenu">
                             <a href="./mp_field/mp_field_display.php"><i class="md md-pages"></i>Field</a>
-                           
                         </li>
 						
 						<li class="has-submenu">
                             <a href="./mp_type/mp_type_display.php"><i class="md md-pages"></i>Type</a>
-                           
                         </li>
 						
 						<li class="has-submenu">
                             <a href="./Theme/view_theme.php"><i class="md md-pages"></i>Theme</a>
-                          
                         </li>
-					
-
-
-
-                      
-                  
                     </ul>
                     <!-- End navigation menu        -->
                 </div>
@@ -171,23 +137,8 @@
 
 include ("./mp_connect.php");
 ?>
-
-
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
-
         <div class="wrapper">
             <div class="container">
-
-                <!-- Page-Title -->
-               
-				
-				
-                <!-- Page-Title -->
-
-				
-				
                 <div class="row">
                     <div class="col-sm-12" style="margin-top:50px;">
                         
@@ -268,11 +219,7 @@ include ("./mp_connect.php");
 								</div>
 							</a>
 							</div>
-							
-							
-							
 					</div>
-					
 					
 					<div class="row" style="margin-bottom:20px;">
                     <div class="col-sm-12">
@@ -281,8 +228,6 @@ include ("./mp_connect.php");
 				</div>
 					
 						<div class="card-box table-responsive">
-							
-							
 							<table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -342,12 +287,7 @@ include ("./mp_connect.php");
 							</table>
 						</div>
 					</div>
-					
-							
-							
 				</div>
-
-				
 				<!-- Footer -->
                 <footer class="footer text-right">
                     <div class="container">
@@ -364,12 +304,6 @@ include ("./mp_connect.php");
             </div> <!-- end container -->
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
-		
-		
         <!-- jQuery  -->
         <script src="./assets/js/jquery.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
@@ -494,12 +428,8 @@ include ("./mp_connect.php");
             });
         </script>
 		
-
 		 <script src="./assets/js/jquery.core.js"></script>
         <script src="./assets/js/jquery.app.js"></script>
-		
-
-	
 		<script>
             jQuery(document).ready(function() {
 
@@ -549,13 +479,6 @@ include ("./mp_connect.php");
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
@@ -646,25 +569,9 @@ include ("./mp_connect.php");
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
-
-			
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -675,12 +582,6 @@ include ("./mp_connect.php");
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>
-              
               
