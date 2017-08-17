@@ -1,3 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteRule ^upload-([0-9]+)\.html$ upload.php
