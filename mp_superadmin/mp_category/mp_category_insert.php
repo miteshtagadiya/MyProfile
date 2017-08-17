@@ -1,3 +1,5 @@
+<!-- The code for insert new category -->
+
 <?php
 
 include ('../mp_connect.php');

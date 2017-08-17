@@ -15,12 +15,7 @@
         </div>
         <!-- End wrapper -->
 		
-		
-		
-		
-		
-		
-        <!-- jQuery  -->
+		<!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
         <script src="../assets/js/detect.js"></script>
@@ -48,16 +43,7 @@
         <!-- daterangepicker -->
      	<script src="../assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
 
-
-	    
-       
-		
-		
-		
-       
-		
-			
-		<!-- Bootstrap-tagsinput  -->
+        <!-- Bootstrap-tagsinput  -->
         <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
         <!-- Switchery  -->
         <script src="../assets/plugins/switchery/dist/switchery.min.js"></script>
@@ -150,13 +136,9 @@
                 $(".knob").knob();
             });
         </script>
-		
-
 		 <script src="../assets/js/jquery.core.js"></script>
         <script src="../assets/js/jquery.app.js"></script>
 		
-
-	
 		<script>
             jQuery(document).ready(function() {
 
@@ -206,14 +188,8 @@
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
-				
-				 // Date Picker
+
+                // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-autoclose').datepicker({
                 	autoclose: true,
@@ -303,25 +279,9 @@
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
-
-			
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -333,9 +293,5 @@
             TableManageButtons.init();
         </script>
 
-		
-			
     </body>
-
-
 </html>

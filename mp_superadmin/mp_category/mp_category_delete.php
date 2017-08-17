@@ -1,3 +1,7 @@
+<!--
+    For delete category
+-->
+
 <?php
 include ("../mp_connect.php");
 $id=$_GET['id'];

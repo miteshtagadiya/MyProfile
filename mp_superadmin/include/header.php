@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     
-
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,14 +25,11 @@
         <!-- Daterangepicker -->
 		<link href="../assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 		
-		
 		        <!-- C3 Chart -->
         <link href="../assets/plugins/c3/c3.min.css" rel="stylesheet" type="text/css"  />
         <!-- Custombox css -->
         <link href="../assets/plugins/custombox/dist/custombox.min.css" rel="stylesheet">
 
-		
-		
 		<!-- Bootstrap-tagsinput css-->
         <link href="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
         <!-- switchery css-->
@@ -53,12 +49,6 @@
         <link href="../assets/plugins/datatables/fixedHeader.bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/plugins/datatables/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/plugins/datatables/scroller.bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-       
-       
-		
-		
-		
 		<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/core.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/components.css" rel="stylesheet" type="text/css" />
@@ -68,7 +58,3 @@
         <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
 
         <script src="../assets/js/modernizr.min.js"></script>
-		
-		
-		
-		

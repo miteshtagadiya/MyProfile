@@ -1,10 +1,6 @@
 
     </head>
-
-
     <body>
-
-
         <!-- Navigation Bar-->
         <header id="topnav">
             <div class="topbar-main">
@@ -19,13 +15,9 @@
                     <div class="menu-extras">
 
                         <ul class="nav navbar-nav navbar-right pull-right">
-                            
-                            
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true"><i class="ti-user m-r-5"></i>Hello Admin</a>
                                 <ul class="dropdown-menu">
-                                  
                                     <li><a href="../../mp_user/mp_user_registration/index.php"><i class="ti-power-off m-r-5"></i> Logout</a></li>
                                 </ul>
                             </li>
@@ -47,8 +39,6 @@
                 </div>
             </div>
             <!-- End topbar -->
-
-
             <!-- Navbar Start -->
             <div class="navbar-custom">
                 <div class="container">
@@ -58,36 +48,23 @@
 					
 						<li class="has-submenu">
                             <a href="../approve/user_dashboard.php"><i class="md md-pages"></i>User</a>
-                          
                         </li>
 						
-						
-					 <li class="has-submenu">
+                        <li class="has-submenu">
                             <a href="../mp_category/mp_category_display.php"><i class="md md-pages"></i>Category</a>
-                          
                         </li>
 						
 						<li class="has-submenu">
                             <a href="../mp_field/mp_field_display.php"><i class="md md-pages"></i>Field</a>
-                          
                         </li>
 
 						<li class="has-submenu">
                             <a href="../mp_type/mp_type_display.php"><i class="md md-pages"></i>Type</a>
-                          
                         </li>
 						
 						<li class="has-submenu">
                             <a href="../Theme/view_theme.php"><i class="md md-pages"></i>Theme</a>
-                          
                         </li>
-						
-					
-
-
-
-                      
-                  
                     </ul>
                     <!-- End navigation menu        -->
                 </div>
