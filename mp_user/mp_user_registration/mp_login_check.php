@@ -1,3 +1,7 @@
+<!--
+    This page is for checking the user is logged in or not.
+-->
+
 <?php
 
 include("../mp_connect.php");

@@ -4,21 +4,14 @@ include ("../include/menu.php");
 
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- This page is for send the password email -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
                     
 					<div class="col-sm-3">
                     </div>
-					
 					
 					<div class="col-sm-6">
                         <div class="card-box">
@@ -53,29 +46,9 @@ include ("../include/menu.php");
 										
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
-							
-							
                         </div>
                     </div>
-					
-					
-					
                 </div>
-
-
-
-               
-
-
-
-
-              
-
 
 <?php include ("../include/footer.php");?>

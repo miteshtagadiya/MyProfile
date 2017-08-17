@@ -26,31 +26,14 @@ include ("../include/header.php");?>
 
 </div>
 
-
 <!--
-<div class="col-sm-12">
-<div class="searchbar wrapper" style="height:39px;">
-      <form action="#" method="post" name="global_search_form">
-        <input name="search_form_id" type="hidden" value="18">
-		<div class="col-sm-6" style="padding-left:0px;">
-		
-        <input size="30" id="global_search1" value="Search Product/Service" name="keyword">
-		</div>
-        <input class="newdesign" id="search_btn" title="Search" name="Submit" type="Submit" value="Search">
-							
-      </form>
-           <div class="clr"></div>
-    
-
-</div>
-</div>-->
-
+    User side login page
+-->
 
         <div class="row" style="background-color:white">
                     
 					<div class="col-sm-3">
                     </div>
-					
 					
 					<div class="col-sm-6" style="margin-top:120px;">
                         <div class="card-box" style="box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 15px 0 rgba(0, 0, 0, 0.19);">
@@ -123,6 +106,9 @@ include ("../include/header.php");?>
 					
                 </div>
 
+<!--
+    This code is for check user registration , if user is registered user then he not have to register again and check which field is empty in user's side and page is redirect to that page 
+-->
 <?php include ("../include/footer.php");
 include("../mp_connect.php");
 
@@ -243,7 +229,6 @@ if(isset($_POST['login']))
 						{
 							header('location:../../mp_subadmin/skill/mp_skill.php');
 						}
-		
 			
 		}
 		else

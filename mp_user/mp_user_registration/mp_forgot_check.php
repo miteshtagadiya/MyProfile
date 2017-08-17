@@ -1,3 +1,5 @@
+<!-- This page is for checking forget password-->
+
 <?php
 include('../mp_connect.php');
 
@@ -14,18 +16,7 @@ include('../mp_connect.php');
 		
 		if($count==1)
 		{
-			//$pass=$rec['password'];
-			//$to="miteshtagadiya@gmail.com";
-			//$subject="password";
-			//$message="Your Password:".$rec['password'];
-			//$header="http://php.net/smtp";
-			//$m=ini_set("SMTP",$to);
-			//ini_set("smtp_port","25");
-			//ini_set('send from','myprofile.com');
-			//if($m)
-			//{
-			//	echo "check your email";
-			//}
+			
 			ini_set("SMTP","localhost");
 
 			// Please specify an SMTP Number 25 and 8889 are valid SMTP Ports.

@@ -1,3 +1,7 @@
+<!--
+    This page is used for logout from user side
+-->
+
 <?php
 
 include("../mp_connect.php");

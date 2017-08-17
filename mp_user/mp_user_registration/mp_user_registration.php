@@ -1,3 +1,7 @@
+<!--
+    This page is used for user registration
+-->
+
 <?php 
 include ("../include/header.php");
 ?>
@@ -55,21 +59,6 @@ include ("../include/header.php");
 	width:170px;
 }
 
-@media (max-width:991px)
-{
-
-
-}
-
-
-
-
-@media (max-width:767px)
-{
-
-
-}
-
 @media (max-width:479px)
 {
 .logoimg
@@ -77,8 +66,6 @@ include ("../include/header.php");
 	width:130px;
 }
 }
-
-
 
 @media (max-width:320px)
 {
@@ -392,7 +379,9 @@ function getXMLHTTP() {
 
 
               
-
+<!--
+    Code for entering the user details into the database.
+-->
 
 <?php include ("../include/footer.php");
 

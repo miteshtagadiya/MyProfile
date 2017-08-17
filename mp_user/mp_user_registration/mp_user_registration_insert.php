@@ -1,3 +1,6 @@
+<!--
+    This page is inserts the data into the database.
+-->
 <?php
 
 include ('../mp_connect.php');

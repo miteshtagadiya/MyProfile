@@ -1,3 +1,5 @@
+<!-- For displaying field on user side-->
+
 <?php
 $con = new mysqli('localhost', 'root', '',"myprofile");
 if ($con->connect_errno) {
@@ -12,6 +14,6 @@ $result=$con->query($query);
 ?>
 <select class="form-control select2" data-placeholder="Choose ..." name="field">
 <?php while ($row=$result->fetch_array(MYSQLI_ASSOC)) { ?>
-<option value=<?php echo $row['field_id']?>><?php echo $row['field_name']?></option>
+    <option value=<?php echo $row['field_id']?>><?php echo $row['field_name']?></option>
 <?php } ?>
 </select>
