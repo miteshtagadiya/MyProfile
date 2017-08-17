@@ -1,3 +1,6 @@
+<!--
+    Code for insert new keyword
+-->
 <?php
 include('../mp_connect.php');
 

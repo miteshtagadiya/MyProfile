@@ -23,9 +23,7 @@ include ("../include/menu.php");
 
 ?>
 
-       <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+       <!-- Displays the keyword -->
 
         <div class="wrapper">
             <div class="container">
@@ -43,8 +41,6 @@ include ("../include/menu.php");
 									</a>	</button>
 						</center>
 				</div>
-				
-
 			       <div class="row">
                     
 					<div class="col-sm-3">
@@ -53,14 +49,8 @@ include ("../include/menu.php");
 				<div class="col-sm-6">
 					<div class="">
                         <div class="card-box">
-
-
 								<div class="row">
-                               
-							   
                                     <form role="form" enctype="multipart/form-data" method="post">
-                                        
-										
 										<div class="col-sm-12">
 											<div class="form-group">
                                            <center> <label>Keyword 1:&nbsp&nbsp&nbsp&nbsp</label>
@@ -76,21 +66,10 @@ include ("../include/menu.php");
                                         </div>
 										
 										<div class="col-sm-12">
-										
-										
-										
-										
 										</div>
 
                                     </form>
-                                
-								
-							   
-                                
-
-
 								</div>		
-                       
 						</div>
 						<div class="col-sm-3">
 						</div>
@@ -115,12 +94,6 @@ include ("../include/menu.php");
             </div> <!-- end container -->
         </div>
         <!-- End wrapper -->
-		
-		
-		
-		
-		
-		
         <!-- jQuery  -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
@@ -156,13 +129,6 @@ include ("../include/menu.php");
         <script src="../assets/plugins/gmaps/gmaps.min.js"></script>
         <!-- demo codes -->
         <script src="../assets/pages/jquery.gmaps.js"></script>
-       
-		
-		
-		
-       
-		
-			
 		<!-- Bootstrap-tagsinput  -->
         <script src="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
         <!-- Switchery  -->
@@ -199,14 +165,8 @@ include ("../include/menu.php");
 
         <!-- Data table init -->
         <script src="../assets/pages/datatables.init.js"></script>
-
-		
-		
-
-		 <script src="../assets/js/jquery.core.js"></script>
+	 <script src="../assets/js/jquery.core.js"></script>
         <script src="../assets/js/jquery.app.js"></script>
-		
-
 	
 		<script>
             jQuery(document).ready(function() {
@@ -257,12 +217,6 @@ include ("../include/menu.php");
 
 			   $('.selectpicker').selectpicker();
 	            $(":file").filestyle({input: false});
-				
-				
-				
-				
-				
-				
 				
 				 // Date Picker
                 jQuery('#datepicker').datepicker();
@@ -354,13 +308,6 @@ include ("../include/menu.php");
 		            console.log(start.toISOString(), end.toISOString(), label);
 		            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
 		        });
-				
-				
-				
-				
-				
-				
-				
 	            });
 
 	        </script>
@@ -399,8 +346,6 @@ include ("../include/menu.php");
                         }
                     }
                 });
-
-                               
                 google.maps.event.addListener(marker, 'dragend', function() {
 
                 geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
@@ -420,13 +365,6 @@ include ("../include/menu.php");
             
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>  
-			
-			
-		
-
-       
-        
-
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#datatable').dataTable();
@@ -437,10 +375,5 @@ include ("../include/menu.php");
             } );
             TableManageButtons.init();
         </script>
-
-		
-			
     </body>
-
-
 </html>

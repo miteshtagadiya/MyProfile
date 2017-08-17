@@ -26,8 +26,6 @@ $sql="select * from mp_keyword where keyword_id='$kid'";
 $data=mysqli_query($con,$sql);
 $rec=mysqli_fetch_array($data);
 
-	
-
 ?>
 
 
@@ -36,16 +34,10 @@ include ("../include/header.php");
 include ("../include/menu.php");
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- code for updating keywords -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
             <div class="row">
                     
 					<div class="col-sm-3">
@@ -93,28 +85,12 @@ include ("../include/menu.php");
 										</div>
 
                                     </form>
-                                
-								
-							   
-                                
-
-
 								</div>		
-                       
 						</div>
 						<div class="col-sm-3">
 						</div>
 					</div>
                 </div>
 			</div>
-				
-
-
-               
-
-
-
-
-              
 
 <?php include ("../include/footer.php"); ?>
