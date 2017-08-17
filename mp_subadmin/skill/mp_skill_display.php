@@ -26,20 +26,11 @@ include ("../include/menu.php");
 
 ?>
 
-       <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+       <!-- Displays the sills -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
-
-                <!-- Row start -->
-               
-				<div class="row">
+                <div class="row">
                     <div class="col-sm-12">
 					
 						
@@ -135,8 +126,5 @@ include ("../include/menu.php");
 						</div>
 					</div>
 				</div>
-				
-
-              
 
 <?php include("../include/footer.php"); ?>

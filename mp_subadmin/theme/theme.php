@@ -27,9 +27,7 @@ $theme_id = $row11['theme_id'];
 
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Theme display   -->
 
         <div class="wrapper" style="margin-top:175px;">
             <div class="container" >
@@ -48,11 +46,6 @@ $theme_id = $row11['theme_id'];
                 <!-- Page-Title -->
 
 
-
-
-                <!-- SECTION FILTER
-                ================================================== -->
-                
                 <div class="row port">
                     <div class="portfolioContainer">
                        
@@ -95,26 +88,10 @@ $theme_id = $row11['theme_id'];
 						  <?php
 						}
 						?>		
-						
-						
-						
-						
-						
-						
-
-
                     </div>
-                </div> <!-- End row -->
-
-
-
-                
-                <!-- End Footer -->
-
-            </div> <!-- end container -->
+                </div> 
+            </div> 
         </div>
-        <!-- End wrapper -->
-
 
 <?php 
 include('../include/footer.php');

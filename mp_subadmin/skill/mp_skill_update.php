@@ -31,19 +31,13 @@ $data=mysqli_query($con,$query);
 $rec=mysqli_fetch_array($data);
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Update the skill details -->
 
         <div class="wrapper">
             <div class="container">
 
-               
-
-
                 <div class="row">
                    
-					
 					<div class="col-sm-12">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Skill</b></h4>
@@ -79,15 +73,8 @@ $rec=mysqli_fetch_array($data);
 										</center>
 										</div>
 										
-										
-
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
@@ -95,8 +82,5 @@ $rec=mysqli_fetch_array($data);
                     </div>
 					
                 </div>
-
-
-
                
 <?php include ('../include/footer.php');?>

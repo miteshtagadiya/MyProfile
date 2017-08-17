@@ -1,3 +1,6 @@
+<!--
+    Apply theme code for subadmin
+--> 
 <?php
 session_start();
 

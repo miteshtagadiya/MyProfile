@@ -1,3 +1,7 @@
+<!--
+    Inserts the skill details into the database
+-->
+
 <?php
 include('../mp_connect.php');
 

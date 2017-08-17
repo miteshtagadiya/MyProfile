@@ -3,28 +3,15 @@ include ("../include/header.php");
 include ("../include/menu.php");
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Index page for skill -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
-                    
-					
-					
 					<div class="col-sm-12">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Skill</b></h4>
-
-
                             <div class="row">
-                               
-							   
                                     <form class="form" role="form" action="mp_skill_insert.php" enctype="multipart/form-data" method="post">
                                         <div class="col-sm-6">
 										<div class="form-group">
@@ -55,15 +42,7 @@ include ("../include/menu.php");
 										</button>
 										<center>
 										</div>
-										
-										
-
                                     </form>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
@@ -71,8 +50,5 @@ include ("../include/menu.php");
                     </div>
 					
                 </div>
-
-
-
                
 <?php include ('../include/footer.php');?>

@@ -1,3 +1,6 @@
+<!--
+    Code for delete the skill
+-->
 <?php
 
 include("../mp_connect.php");
