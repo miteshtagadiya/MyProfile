@@ -1,3 +1,4 @@
+<!-- admin can delete types -->
 <?php
 include ("../mp_connect.php");
 $id=$_GET['id'];

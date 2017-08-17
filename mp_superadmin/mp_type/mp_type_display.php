@@ -7,9 +7,7 @@ $query="select * from mp_type";
 $data=mysqli_query($con,$query);
 ?>
 
-      <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+      <!-- displays all types  -->
 
         <div class="wrapper">
             <div class="container">
@@ -20,8 +18,6 @@ $data=mysqli_query($con,$query);
                         <h4 class="page-title" style="text-align:center;">Type</h4>
 					</div>
 				</div>
-				
-				
 				<div class="row" style="margin-bottom:20px;">
 					<div class="col-sm-12">
 							<center><a href="index.php">
@@ -29,16 +25,10 @@ $data=mysqli_query($con,$query);
 							</a></center>
 					</div>
                 </div>
-                <!-- Page-Title -->
 
-				
-				
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box table-responsive">
-
-                           
-                            
                             <table id="datatable-responsive"  class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
                                 <thead>
                                     <tr>
@@ -63,14 +53,5 @@ $data=mysqli_query($con,$query);
                         </div>
                     </div>
                 </div>
-
-
-               
-
-
-
-
-              
-
 
 <?php include ("../include/footer.php");?>

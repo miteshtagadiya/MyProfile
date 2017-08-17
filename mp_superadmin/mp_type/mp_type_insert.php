@@ -1,3 +1,5 @@
+<!-- This code is foor insert new type -->
+
 <?php
 
 include ('../mp_connect.php');
