@@ -1,3 +1,6 @@
+<!--
+    connection file
+-->
 <?php
 $servername="localhost";
 $username="root";
