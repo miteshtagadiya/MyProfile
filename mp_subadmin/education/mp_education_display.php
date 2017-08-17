@@ -22,9 +22,7 @@ $data=mysqli_query($con,$query);
 ?>
 
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- Code for display education -->
 
         <div class="wrapper">
             <div class="container">
@@ -44,11 +42,6 @@ $data=mysqli_query($con,$query);
 									</a>	</button>
 						</center>
 				</div>
-				
-				
-                <!-- Page-Title -->
-
-				
 				
                 <div class="row">
                     <div class="col-sm-12">
@@ -129,8 +122,6 @@ $data=mysqli_query($con,$query);
                                         
                                        
 										<td><a href="mp_education_update.php?id=<?php echo $rec['education_id']; ?>"><img src="../img/update.png" alt="Update" height="20px"></a></td>
-								
-										
                                     </tr>
 												
 											<?php	} ?>
@@ -141,10 +132,4 @@ $data=mysqli_query($con,$query);
 						</div>
 					</div>
 				</div>
-               
-
-
-
 <?php include ("../include/footer.php");?>
-              
-              

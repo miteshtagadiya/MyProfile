@@ -1,3 +1,7 @@
+<!--
+    Code for delete education 
+-->
+
 <?php
 include('../mp_connect.php');
 

@@ -1,3 +1,7 @@
+<!--
+    Code for insert education details
+-->
+
 <?php
 include('../mp_connect.php');
 
@@ -59,8 +63,6 @@ if(isset($_POST['submit']))
 						{
 							header('location:../../mp_subadmin/skill/mp_skill.php');
 						}
-		
-		
 			
 	}
 	else

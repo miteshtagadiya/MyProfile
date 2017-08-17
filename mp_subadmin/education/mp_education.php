@@ -4,19 +4,11 @@ include ("../include/menu.php");
 
 ?>
 
-        <!-- =======================
-             ===== START PAGE ======
-             ======================= -->
+        <!-- index page of education -->
 
         <div class="wrapper">
             <div class="container">
-
-               
-
-
                 <div class="row">
-                  
-					
 					<div class="col-sm-12">
                         <div class="card-box" style="margin-top:50px;">
                             <h4 class="m-t-0 header-title" style="margin-bottom:30px;text-align:center;margin-top:20px !important;"><b>Education</b></h4>
@@ -147,8 +139,6 @@ include ("../include/menu.php");
                                             <input type="text" class="form-control" placeholder="Enter name of institute" name="institute">
                                         </div>
 										</div>
-										
-										
 										<div class="col-sm-12">	
 										
 										<center>
@@ -164,28 +154,10 @@ include ("../include/menu.php");
 
                                     </form>
                                 </div>
-								
-							   
-                                
-
-
                             </div>
                         </div>
                     </div>
-					
-					
                     </div>
-					
                 </div>
-
-
-
-               
-
-
-
-
-              
-
 
 <?php include ("../include/footer.php");?>
