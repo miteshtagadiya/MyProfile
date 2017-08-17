@@ -22,14 +22,16 @@
     SubAdmin is the person who has a particular skills in particular area , If that person wants the work based on their skill than they 
     Will register in our system and add the details.If Super Admin Approve that person than that person can add it's details into the  
     system,SubAdmin can addfollowing Details into the system.
-    -Profile: They can add their profile picture or details.
-    -Education: They can add their education details and degree details and also updates and delete the educations.
-    -Skill: Users(SubAdmin) can add their skills.
-    -Portfolio: Users can add their Portfolio details,In this user can add their past work or experiance details with images.
-    -Portfolio Image: Users can add their perticular portfolio images,User can add 10 images at a time.
-    -ContactUs : Users can add Conntact details and add their location also.
-    -Keyword: User can add the keyword for Searching.This is used and help us to find the perticular skill.
-    -Theme: User can select and apply theme for his/her choice, This theme displays the all details about that particular user(SubAdmin)
+    
+    1)Profile: They can add their profile picture or details.
+    2)Education: They can add their education details and degree details and also updates and delete the educations.
+    3)Skill: Users(SubAdmin) can add their skills.
+    4)Portfolio: Users can add their Portfolio details,In this user can add their past work or experiance details with images.
+    5)Portfolio Image: Users can add their perticular portfolio images,User can add 10 images at a time.
+    6)ContactUs : Users can add Conntact details and add their location also.
+    7)Keyword: User can add the keyword for Searching.This is used and help us to find the perticular skill.
+    8)Theme: User can select and apply theme for his/her choice, This theme displays the all details about that particular 
+      user(SubAdmin)
       and user can also preview that theme. this theme is used for building website for that perticular user ,when end user search that
       person than the end user can view this website for view that person details.
     
@@ -40,20 +42,20 @@
     users and also view the details about howmany users are registerd today , howmany users are active now, and howmany users are
     suspended. this details are displaed in the dashbord of the admin side.
     Super admin can Add the Followind Details:
-    -Category: SuperAdmin can Add and Update category.This is used in subAdmin side.Subadmin can select that category.
-    -Field: SuperAdmin can Add Fields For particular category and also updates the fileds.
-    -Type: SuperAdmin can Add and update user type (Employee,CEO,etc.).
-    -Theme: SuperAdmin can Add and Update Theme for provide to subAdmin.
+    1)Category: SuperAdmin can Add and Update category.This is used in subAdmin side.Subadmin can select that category.
+    2)Field: SuperAdmin can Add Fields For particular category and also updates the fileds.
+    3)Type: SuperAdmin can Add and update user type (Employee,CEO,etc.).
+    4)Theme: SuperAdmin can Add and Update Theme for provide to subAdmin.
     
    This is the full project Discription.
    
  # Technologies
-   PHP
-   MySQL
-   CKEditor
-   Jquery
-   JavaScript
-   Html
-   Css
-   BootStrap
+   1.PHP
+   2.MySQL
+   3.CKEditor
+   4.Jquery
+   5.JavaScript
+   6.Html
+   7.Css
+   8.BootStrap
    
