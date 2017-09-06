@@ -60,5 +60,4 @@
  # Demo link
  <a href="https://myprofiledemo.000webhostapp.com/" target="_blank">Demo</a>
  
- In Demo, if you want to see sub admin side then add <b>username:kishan@gmail.com</b> and <b>password:kishan</b>, if you want to register then click on the register but registered user not directly login.If admin approves registered user then the user can log in.
- For view admin side <b>username:admin@gmail.com</b> and <b>password: admin</b>, In admin side, you can view all active users who are login to system.and also view registered user also.
+ 
